@@ -1,0 +1,8 @@
+.DS_Store
+composer.lock
+vendor
+*.zip
+assets/package-lock.json
+package-lock.json
+node_modules
+.env*
