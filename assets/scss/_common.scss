@@ -1,0 +1,104 @@
+.bg-primaria {
+    background-color: $primaria !important;
+}
+
+.text-primaria {
+    color: $primaria !important;
+}
+
+.bg-secundaria {
+    background-color: $secundaria !important;
+}
+
+.text-secundaria {
+    color: $secundaria !important;
+}
+
+.bg-background {
+    background-color: $background !important;
+}
+
+.text-background {
+    color: $background !important;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0 !important;
+}
+
+.no-margin-top {
+    margin-top: 0 !important;
+}
+
+.no-margin-vertical {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.no-margin-left {
+    margin-left: 0 !important;
+}
+
+.no-margin-right {
+    margin-right: 0 !important;
+}
+
+.no-margin-horizontal {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.no-padding-left {
+    padding-left: 0 !important;
+}
+
+.no-padding-right {
+    padding-right: 0 !important;
+}
+
+.no-padding-horizontal {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.no-padding-top {
+    padding-top: 0 !important;
+}
+
+.no-padding-bottom {
+    padding-bottom: 0 !important;
+}
+
+.no-padding-vertical {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.no-overflow {
+    overflow: hidden;
+}
+
+.no-overflow-horizontal {
+    overflow-x: hidden;
+}
+
+.no-overflow-vertical {
+    overflow-y: hidden;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.pointer {
+    cursor: pointer !important;
+}

@@ -2,6 +2,7 @@
 @import "mixins";
 @import "delay";
 @import "libs";
+@import "common";
 
 body{
     font-family: "Ubuntu", sans-serif;
@@ -39,5 +40,71 @@ nav{
         a{
             color: $secundaria;
         }
+    }
+}
+
+#home{
+    background-image: url('../img/simone_home.png');
+    background-position: center right;
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    h3{
+        color: $secundaria;
+        font-size: 28px;
+        text-align: right;
+    }
+    p{
+        text-align: justify;
+        font-size: 16px;
+    }
+}
+
+#sobre{
+    background-image: url('../img/simone_sobre_mim.png');
+    background-position: center left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    h3{
+        font-size: 28px;
+        text-align: right;
+    }
+    p{
+        text-align: justify;
+        font-size: 16px;
+    }
+}
+
+#servicos{
+    h3{
+        font-size: 28px;
+        text-align: right;
+    }
+    p{
+        text-align: justify;
+        font-size: 16px;
+    }
+}
+
+#fale_comigo{
+    background-image: url('../img/simone_fale_comigo.png');
+    background-position: center left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    h3{
+        font-size: 28px;
+        text-align: right;
+    }
+    p{
+        text-align: justify;
+        font-size: 16px;
+    }
+    a{
+        color: rgb(66, 106, 187);
+        text-transform: lowercase;
+    }
+    .card-panel{
+        background-color: #aac3f5;
+        color: rgb(66, 106, 187);
     }
 }

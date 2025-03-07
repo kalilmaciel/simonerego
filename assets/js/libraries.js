@@ -25,7 +25,7 @@ $(document).ready(function () {
         menu: '.menu',
         direction: "vertical",
         verticalCentered: true,
-        sectionsColor: ['white', '#ee005a', '#2C3E50', '#39C'],
+        sectionsColor: ['rgb(189, 204, 237)', '#e5f1ff', '#fff', 'rgb(216, 233, 255)'],
         anchors: ["home", "sobre", "servicos", "fale_comigo"],
         scrollingSpeed: 700,
         easing: "swing",
