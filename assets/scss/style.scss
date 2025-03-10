@@ -4,11 +4,11 @@
 @import "libs";
 @import "common";
 
-body{
+body {
     font-family: "Ubuntu", sans-serif;
 }
 
-nav{
+nav {
     background-color: $primaria;
     position: fixed;
     top: 0;
@@ -16,19 +16,19 @@ nav{
     width: 100%;
     z-index: 1000;
 
-    .brand-logo{
-        img{
+    .brand-logo {
+        img {
             height: 70px;
         }
-        div{
+        div {
             margin: 0 20px;
             display: inline-block;
-            h1{
+            h1 {
                 color: $secundaria;
                 margin: 7px 0;
                 font-size: 24px;
             }
-            h2{
+            h2 {
                 color: $secundaria;
                 margin: 5px 0;
                 font-size: 18px;
@@ -36,75 +36,164 @@ nav{
         }
     }
 
-    ul{
-        a{
+    ul {
+        a {
             color: $secundaria;
         }
     }
 }
 
-#home{
-    background-image: url('../img/simone_home.png');
+.sidenav-trigger {
+    color: $secundaria;
+}
+
+#home {
+    background-image: url("../img/simone_home.png");
     background-position: center right;
     background-size: cover;
     background-size: contain;
     background-repeat: no-repeat;
-    h3{
+    h3 {
         color: $secundaria;
         font-size: 28px;
         text-align: right;
     }
-    p{
+    p {
         text-align: justify;
         font-size: 16px;
+        color: $secundaria;
     }
 }
 
-#sobre{
-    background-image: url('../img/simone_sobre_mim.png');
+#sobre {
+    background-image: url("../img/simone_sobre_mim.png");
     background-position: center left;
     background-size: contain;
     background-repeat: no-repeat;
-    h3{
+    h3 {
         font-size: 28px;
         text-align: right;
     }
-    p{
+    p {
         text-align: justify;
         font-size: 16px;
     }
 }
 
-#servicos{
-    h3{
+#servicos {
+    h3 {
         font-size: 28px;
         text-align: right;
     }
-    p{
+    p {
         text-align: justify;
         font-size: 16px;
     }
 }
 
-#fale_comigo{
-    background-image: url('../img/simone_fale_comigo.png');
+#fale_comigo {
+    background-image: url("../img/simone_fale_comigo.png");
     background-position: center left;
     background-size: contain;
     background-repeat: no-repeat;
-    h3{
+    h3 {
         font-size: 28px;
         text-align: right;
     }
-    p{
+    p {
         text-align: justify;
         font-size: 16px;
     }
-    a{
+    a {
         color: rgb(66, 106, 187);
         text-transform: lowercase;
     }
-    .card-panel{
+    .card-panel {
         background-color: #aac3f5;
         color: rgb(66, 106, 187);
     }
+}
+
+@media (max-width: 600px) {
+    nav {
+        .container {
+            width: 100%;
+        }
+        .brand-logo {
+            width: 70%;
+            img {
+                height: 60px;
+            }
+            div {
+                margin: 0;
+                h1 {
+                    font-size: 16px;
+                }
+                h2 {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    #home {
+        background-position: center bottom;
+        align-items: start;
+        .col.m6.s12 {
+            height: 60vh;
+            overflow-y: auto;
+            margin-top: 50px;
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+
+    #sobre {
+        background-position: left bottom;
+        background-size: 50%;
+        display: block;
+        & > .row {
+            display: block;
+        }
+        .card-panel {
+            margin-top: 50px;
+            padding: 10px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+
+    #servicos {
+        display: block;
+        & > .row {
+            display: block;
+        }
+        img {
+            height: 40vh;
+            margin: 50px auto 0 auto;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+
+    #fale_comigo {
+        background-position: left bottom;
+        background-size: 60%;
+        display: block;
+        .card-panel {
+            margin-top: 50px;
+            padding: 10px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+}
+
+#mobile-demo{
+    padding-top: 60px;
 }

@@ -1,0 +1,22 @@
+{
+	"short_name": "Simone Rêgo",
+	"name": "Simone Rêgo - Psicóloga",
+	"start_url": "/",
+	"theme_color": "#96bc33",
+	"background_color": "#ffffff",
+	"display": "fullscreen",
+	"display_override": ["standalone"],
+	"orientation": "any",
+	"icons": [
+		{
+			"src": "assets/favicon/android-icon-192x192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		}
+	],
+	"serviceworker": {
+		"src": "service-worker",
+		"scope": "/",
+		"use_cache": true
+	}
+}
